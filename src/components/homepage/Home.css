@@ -1,0 +1,57 @@
+.home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 275px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.home-container .text-container {
+	justify-content: center;
+}
+
+.home-container .text-container .title {
+	font-size: 56px;
+	background-color: black;
+	margin: 0 2rem;
+	color: white;
+	letter-spacing: 0.3rem;
+}
+
+.home-container .text-container .description {
+	font-size: 24px;
+	margin: 2rem 0;
+	background-color: transparent;
+	color: white;
+	font-weight: 100;
+}
+
+.home-container .button-container {
+	margin-top: 2rem;
+	display: flex;
+	font-size: 28px;
+	background-color: transparent;
+	justify-content: center;
+}
+
+.home-container .button-container button {
+	font-weight: 100;
+	color: white;
+	background-color: black;
+	letter-spacing: 0.4rem;
+	text-align: center;
+	width: 250px;
+	font-size: 24px;
+	transition: background, 1s;
+}
+.home-container .button-container button:hover {
+	background: white;
+	color: black;
+	cursor: pointer;
+}
+.home-container .button-container p {
+	color: white;
+	padding: 0 15px;
+}

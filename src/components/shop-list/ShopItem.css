@@ -1,0 +1,44 @@
+.item-container {
+	display: flex;
+	flex-direction: column;
+	height: 340px;
+	margin-top: 20px;
+	width: 30%;
+	transition: box-shadow 0.3s;
+	padding-bottom: 0;
+	background-color: rgba(255, 69, 0, 0.35);
+}
+
+.item-image {
+	height: 80%;
+	width: 100%;
+}
+
+.item-tilte {
+	color: rgba(255, 208, 0, 0.75);
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #000000;
+	font-family: "VT323", monospace;
+}
+
+.item-price {
+	color: rgba(255, 208, 0, 0.75);
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #000000;
+	font-family: "VT323", monospace;
+}
+
+.item-container:hover {
+	box-shadow: 5px 5px 15px rgba(150, 150, 150, 0.5);
+	background-color: rgba(255, 69, 0, 0.5);
+	cursor: pointer;
+}
+
+@media (max-width: 550px) {
+	.item-tilte {
+		font-size: 30px;
+	}
+	.item-price {
+		font-size: 24px;
+	}
+}
