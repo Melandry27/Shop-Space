@@ -6,17 +6,16 @@
 	justify-content: space-between;
 }
 
-.navbar .left-section {
+.navbar .left-section button {
 	display: flex;
 	align-items: center;
 	padding-left: 5rem;
 	font-size: 38px;
-}
-
-.navbar .left-section a {
 	font-weight: 900;
 	text-decoration: none;
 	margin-left: 10px;
+	background-color: transparent;
+	color: white;
 }
 
 .navbar .left-section .icon-space {
@@ -34,7 +33,9 @@
 	width: 10rem;
 }
 
-.navbar .right-section a {
+.navbar .right-section button {
+	color: white;
+	background-color: transparent;
 	font-size: 28px;
 	font-weight: 900;
 	text-decoration: none;
@@ -42,19 +43,21 @@
 	-webkit-text-stroke: unset;
 }
 
-.navbar .right-section a:visited {
+.navbar .right-section button:visited {
 	color: white;
 }
 
-.navbar .left-section a:visited {
+.navbar .left-section button:visited {
 	color: white;
 }
 
-.navbar .left-section a:hover {
+.navbar .left-section button:hover {
+	cursor: pointer;
 	text-shadow: 2px 2px 2px rgba(206, 89, 55, 0), 2px 2px 2px rgb(100, 100, 100);
 }
 
-.navbar .right-section a:hover {
+.navbar .right-section button:hover {
+	cursor: pointer;
 	text-shadow: 2px 2px 2px rgba(206, 89, 55, 0), 2px 2px 2px rgb(100, 100, 100);
 }
 

@@ -7,17 +7,11 @@ const Navbar = () => {
 	return (
 		<div className="navbar">
 			<div className="left-section">
-				<a href="/" onClick={() => navigate("/")}>
-					Space Store
-				</a>
+				<button onClick={() => navigate("/")}>Space Store</button>
 			</div>
 			<div className="right-section">
-				<a href="/" onClick={() => navigate("/")}>
-					Home
-				</a>
-				<a href="/shop" onClick={() => navigate("/shop")}>
-					Shop
-				</a>
+				<button onClick={() => navigate("/")}>Home</button>
+				<button onClick={() => navigate("/shop")}>Shop</button>
 			</div>
 		</div>
 	)
