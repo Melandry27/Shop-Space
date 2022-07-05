@@ -16,12 +16,7 @@
 	margin-left: 10px;
 	background-color: transparent;
 	color: white;
-}
-
-.navbar .left-section .icon-space {
-	font-size: 32px;
-	padding-right: 1rem;
-	filter: drop-shadow(2px 2px 2px #bababa);
+	border-color: transparent;
 }
 
 .navbar .right-section {
@@ -40,6 +35,7 @@
 	font-weight: 900;
 	text-decoration: none;
 	margin-left: 10px;
+	border-color: transparent;
 	-webkit-text-stroke: unset;
 }
 
